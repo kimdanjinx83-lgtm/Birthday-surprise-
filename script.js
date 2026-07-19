@@ -1,1 +1,1 @@
-function openMessage(){document.getElementById('message').innerText='To My Love\n\nHappy Birthday!\n\nForever Yours,\nLuna 🖤🌙';}
+function openMessage(){document.getElementById('message').innerHTML='💖 Happy Birthday! Forever yours,<br><b>Luna 🖤🌙</b>';for(let i=0;i<60;i++){let e=document.createElement("div");e.innerHTML="🎊";e.style.position="fixed";e.style.left=Math.random()*100+"vw";e.style.top='-20px';e.style.transition='4s';document.body.appendChild(e);setTimeout(()=>e.style.transform='translateY(120vh)',10);setTimeout(()=>e.remove(),4100);}}
