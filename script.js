@@ -1,0 +1,1 @@
+function openMessage(){document.getElementById('message').innerText='To My Love\n\nHappy Birthday!\n\nForever Yours,\nLuna 🖤🌙';}
